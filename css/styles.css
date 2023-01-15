@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-  width: 1188px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -87,14 +87,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-logo-color, #4d5ae5);
+  margin-right: 76px;
 }
 .header-logo {
   color: var(--second-logo-color, #2e2f42);
-  margin-right: 76px;
+  /*margin-right: 76px;*/
 }
 .header-list {
   display: flex;
   gap: 40px;
+  /*margin-right: 76px;*/
 }
 .header-item {
 }
